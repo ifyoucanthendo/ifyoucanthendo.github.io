@@ -52,13 +52,16 @@ body {
   border-top-left-radius: 67px;
   /* sb side ka alag alag kr ke de skte hain */
 }
-#margin {
+#MARGIN (gap between content and border) {
   margin: 25px 12px;
   /* top/bottom , right/left */
   margin: 23px 45px 56px 67px;
   /* top right bottom left  */
 }
 /* -------------------------------------------------- */
+#PADDING (difference betwwen two border)
+
+
 /* ---------------------------------------------------- */
 /* ------------------------------------------------------- */
 /* how to use root */
