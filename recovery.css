@@ -92,4 +92,8 @@ REM :   relative font size to HTML
 
 relative to parent 
 /* ............................................................................ */
-
+/* ......................................................................... */
+DISPLAY :FLEX
+flex-direction: row;
+justify-content: center;    (means left right)
+align-items: center;  (means up down)
