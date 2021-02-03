@@ -8,13 +8,11 @@
     background-color: black;
     height: 45vh;
     width: 100vw;
-
 }
 #first_block_div_child{
-    margin: 20px;
+  height: 50%;
 }
 #first_block_div_image{
     height: 20vh;
     width: auto;
-
 }

@@ -72,3 +72,19 @@ body {
 }
 /* ---------------------------------------------- */
 /* ------------------------------------------------ */
+ IMAGE 
+ background-position: 100%;
+ background-size: cover;
+ background-repeat : no-repeat;
+
+/* ..................................................... */
+REM and EM 
+
+EM : relative font size to parent 
+REM :   relative font size to HTML
+
+
+/*.....................................................................................  */
+% PERCENTAGE 
+
+relative to parent 
