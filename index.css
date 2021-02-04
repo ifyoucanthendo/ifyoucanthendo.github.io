@@ -19,6 +19,22 @@
     position: absolute;
  top: 20px;
 }
+#social_media_div {
+    padding: 20px;
+      display: flex;
+      flex-direction: rows;
+      justify-content: center; 
+     
+    }
+    
+    .social_media_icon {
+      height: auto;
+      width: 5vw;
+      border-radius: 45%;
+    
+      padding: 10px; 
+    
+    }
 #quotes{
     color: white;
   border-width: 5px 6px 6px 9px;
@@ -42,35 +58,39 @@ border: 2px solid red;
 height: auto;
 width: 100vw;
 display: grid;
+grid-template-columns: 200px 300px 100px;
+grid-template-rows: 100px 200px 50px;
+column-gap: 2vw;
 
 }
 .grid_item{
+border: 2px solid blue;
 
 }
 #grid-11{
-
+background-color: orange;
 }
 #grid-12{
-    
+    background-color: pink;
 }
 #grid-13{
-    
+    background-color: red;
 }
 #grid-14{
-    
+    background-color: lightgreen;
 }
 #grid-15{
-    
+    background-color: indianred;
 }
 #grid-16{
-    
+    background-color: violet;
 }
 #grid-17{
-    
+    background-color: rosybrown;
 }
 #grid-18{
-    
+    background-color: brown;
 }
 #grid-19{
-    
+    background-color: yellow;
 }
