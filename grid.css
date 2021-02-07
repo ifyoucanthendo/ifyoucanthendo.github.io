@@ -1,0 +1,44 @@
+.grid_container{
+    border: 2px solid red;
+    display: grid;
+    height: auto;
+    width: 100vw;
+    
+    grid-template-columns: 30vw 38vw 30vw;
+    grid-template-rows: 30vh 38vh 30vh;
+    column-gap: 1vw;
+    
+    }
+    .grid_item{
+    border: 2px solid blue;
+    /* */
+    }
+    #grid-11{
+    background-color: orange;
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    }
+    #grid-12{
+        background-color: pink;
+    }
+    #grid-13{
+        background-color: red;
+    }
+    #grid-14{
+        background-color: lightgreen;
+    }
+    #grid-15{
+        background-color: indianred;
+    }
+    #grid-16{
+        background-color: violet;
+    }
+    #grid-17{
+        background-color: rosybrown;
+    }
+    #grid-18{
+        background-color: brown;
+    }
+    #grid-19{
+        background-color: yellow;
+    }

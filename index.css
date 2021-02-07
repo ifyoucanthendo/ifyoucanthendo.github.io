@@ -1,8 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
-   
-}
+    } 
 #first_block_div{
     border: 2px solid gold;
     background-color: black;
@@ -53,44 +52,4 @@
 justify-content: center;
 align-items: center;
 }
-.grid_container{
-border: 2px solid red;
-height: auto;
-width: 100vw;
-display: grid;
-grid-template-columns: 200px 300px 100px;
-grid-template-rows: 100px 200px 50px;
-column-gap: 2vw;
 
-}
-.grid_item{
-border: 2px solid blue;
-
-}
-#grid-11{
-background-color: orange;
-}
-#grid-12{
-    background-color: pink;
-}
-#grid-13{
-    background-color: red;
-}
-#grid-14{
-    background-color: lightgreen;
-}
-#grid-15{
-    background-color: indianred;
-}
-#grid-16{
-    background-color: violet;
-}
-#grid-17{
-    background-color: rosybrown;
-}
-#grid-18{
-    background-color: brown;
-}
-#grid-19{
-    background-color: yellow;
-}
