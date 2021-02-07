@@ -93,3 +93,26 @@ REM :   relative font size to HTML
 relative to parent 
 /* ............................................................................ */
 
+
+
+
+
+
+
+
+
+
+
+
+/* ...................................ANIMATION.......................................... */
+NOTE :- SBSE PEHLE @keyframe changecolor {} ME ANIAMTION KA NAAM LIKH DENGE USKE BAAD JIS CLASS OR ID (#KUNDAL OR .KUNDAL) ME USE KRNA CHAHTE HAIN USME  (animation name ) likhenge like this 
+
+@keyframes kundal{
+    
+}
+
+
+.animation{
+    animation-name : kundal;
+}
+
