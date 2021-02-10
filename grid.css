@@ -1,54 +1,85 @@
 .grid_container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: grid;
     height: auto;
     width: 100vw;
     grid-template-columns: 30vw 38vw 30vw;
     grid-template-rows: 30vh 38vh 30vh;
     column-gap: 1vw;
+    row-gap: 1vh;
      }
     .grid_item{
-    border: 2px solid blue;
-    /* */
+    /* border: 2px solid blue; */
+    
     }
-    #grid_image{
 
-
-
-    }
     #grid-11{
-    background-color: transparent;
-    /* background-image: url(question/mallicious\ computer.png); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    
+   overflow: hidden;
     grid-column-start: 1;
     grid-column-end: 3; 
+
     }
     #grid-12{
-        background-color: pink;
+        background-color: transparent;
         background-image: url(question/cryptic\ addition.png);
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
+        background-position: center;
     }
     #grid-13{
-        background-color: red;
-    }
+
+        background-color: transparent;
+        background-image: url(question/day\ before\ yesterday.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+       }
     #grid-14{
-        background-color: lightgreen;
+     
+        background-color: transparent;
+        background-image: url(question/hexagon\ to\ diamond.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     #grid-15{
-        background-color: indianred;
+      
+        background-color: transparent;
+        background-image: url(question/integer\ m\ is.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     #grid-16{
-        background-color: violet;
+  
+        background-color: transparent;
+        background-image: url(question/letter\ multiplication.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     #grid-17{
-        background-color: rosybrown;
+
+        background-color: transparent;
+        background-image: url(question/math\ expression.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     #grid-18{
-        background-color: brown;
+
+        background-color: transparent;
+        background-image: url(question/substraction\ problem.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     #grid-19{
-        background-color: yellow;
+       
+        background-color: transparent;
+        background-image: url(question/substraction\ problem.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
