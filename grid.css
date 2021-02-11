@@ -28,12 +28,12 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-
+      
     }
     #grid-13{
 
         background-color: transparent;
-        background-image: url(question/day\ before\ yesterday.png);
+        background-image: url(question/hexagon\ to\ diamond.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -43,7 +43,7 @@
     #grid-14{
      
         background-color: transparent;
-        background-image: url(question/hexagon\ to\ diamond.png);
+        background-image: url(question/day\ before\ yesterday.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -95,8 +95,7 @@
         }
 
         #grid-12{
-            grid-column-start: 1;
-            grid-column-end: 4;
+      
         }
 
         #grid-13{
