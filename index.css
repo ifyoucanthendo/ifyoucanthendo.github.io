@@ -1,10 +1,11 @@
 *{
     padding: 0px;
     margin: 0px;
+    background-color: black;
     } 
 #first_block_div{
     border: 2px solid gold;
-    background-color: black;
+    background-color: transparent;
     height: 45vh;
     width: 100vw;
   
@@ -35,16 +36,18 @@
     
     }
 #quotes{
-    color: white;
-  border-width: 5px 6px 6px 9px;
-  /* top right bottom left */
-  border-style: none dotted none dotted;
+  color: green;
+  background-image: url("border.gif");
+  background-position: center center;
+background-size: contain;
+background-repeat: no-repeat;
   align-items: center;
   height: auto;
   width: 35vw;
   position: absolute;
   top: 50px;
   left: 20px;
+  border: 1px solid red;
 }
 #first_block_div_child{
     display: flex;

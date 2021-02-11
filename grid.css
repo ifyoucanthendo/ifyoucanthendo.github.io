@@ -14,10 +14,12 @@
     }
 
     #grid-11{
+        color: white;
     border: 1px solid red;
-  font-size: 1vw;
+    font-size: 1vw;
     grid-column-start: 1;
     grid-column-end: 3; 
+    box-shadow: 10px 20px 15px 3px green;
 
     }
     #grid-12{
@@ -35,6 +37,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
+        grid-column-start: 1/2 fr;
+        grid-row-end: 1/2fr;
        }
     #grid-14{
      
@@ -83,4 +87,43 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
+    }
+    @media screen and (max-width: 580px) {
+        #grid-11{
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+        #grid-12{
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+        #grid-13{
+
+        }
+
+        #grid-14{
+
+        }
+
+        #grid-15{
+
+        }
+
+        #grid-16{
+
+        }
+
+        #grid-17{
+
+        }
+
+        #grid-18{
+
+        }
+
+        #grid-19{
+
+        }
     }
