@@ -116,3 +116,6 @@ NOTE :- SBSE PEHLE @keyframe changecolor {} ME ANIAMTION KA NAAM LIKH DENGE USKE
     animation-name : kundal;
 }
 
+/* ......................................................MEDIA......................................................... */
+@media screen and (max-width: 580px) {
+}

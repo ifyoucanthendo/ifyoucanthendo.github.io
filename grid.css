@@ -14,13 +14,20 @@
     }
 
     #grid-11{
-        color: white;
+        
+
     border: 1px solid red;
-    font-size: 1vw;
+
     grid-column-start: 1;
     grid-column-end: 3; 
     box-shadow: 10px 20px 15px 3px green;
+    justify-content: center;
+    align-content: center;
 
+    }
+    #grid_11_paragrapgh{
+        color: white;
+        text-decoration: none;
     }
     #grid-12{
         background-color: transparent;
