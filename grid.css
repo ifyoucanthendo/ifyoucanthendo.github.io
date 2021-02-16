@@ -1,135 +1,115 @@
-.grid_container{
-    /* border: 2px solid red; */
-    display: grid;
-    height: auto;
-    width: 100vw;
-    grid-template-columns: 30vw 38vw 30vw;
-    grid-template-rows: 30vh 38vh 30vh;
-    column-gap: 1vw;
-    row-gap: 1vh;
-     }
-    .grid_item{
-    /* border: 2px solid blue; */
-    
-    }
+.grid_container {
+  /* border: 2px solid red; */
+  display: grid;
+  height: auto;
+  width: 100vw;
+  grid-template-columns: 30vw 38vw 30vw;
+  grid-template-rows: 30vh 38vh 30vh;
+  column-gap: 1vw;
+  row-gap: 1vh;
+}
+.grid_item {
+  /* border: 2px solid blue; */
+}
 
-    #grid-11{
-        
+#grid-11 {
+  border: 1px solid red;
 
-    border: 1px solid red;
-
+  grid-column-start: 1;
+  grid-column-end: 3;
+  box-shadow: 10px 20px 15px 3px green;
+  justify-content: center;
+  align-content: center;
+}
+#grid_11_paragrapgh {
+  color: white;
+  text-decoration: none;
+}
+#grid-12 {
+  background-color: transparent;
+  background-image: url(question/cryptic\ addition.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#grid-13 {
+  background-color: transparent;
+  background-image: url(question/hexagon\ to\ diamond.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column-start: 1/2 fr;
+  grid-row-end: 1/2fr;
+}
+#grid-14 {
+  background-color: transparent;
+  background-image: url(question/day\ before\ yesterday.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#grid-15 {
+  background-color: transparent;
+  background-image: url(question/integer\ m\ is.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#grid-16 {
+  background-color: transparent;
+  background-image: url(question/letter\ multiplication.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#grid-17 {
+  background-color: transparent;
+  background-image: url(question/math\ expression.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#grid-18 {
+  background-color: transparent;
+  background-image: url(question/substraction\ problem.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#grid-19 {
+  background-color: transparent;
+  background-image: url(question/substraction\ problem.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (max-width: 580px) {
+  #grid-11 {
     grid-column-start: 1;
-    grid-column-end: 3; 
-    box-shadow: 10px 20px 15px 3px green;
-    justify-content: center;
-    align-content: center;
+    grid-column-end: 4;
+  }
 
-    }
-    #grid_11_paragrapgh{
-        color: white;
-        text-decoration: none;
-    }
-    #grid-12{
-        background-color: transparent;
-        background-image: url(question/cryptic\ addition.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-      
-    }
-    #grid-13{
+  #grid-12 {
+  }
 
-        background-color: transparent;
-        background-image: url(question/hexagon\ to\ diamond.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        grid-column-start: 1/2 fr;
-        grid-row-end: 1/2fr;
-       }
-    #grid-14{
-     
-        background-color: transparent;
-        background-image: url(question/day\ before\ yesterday.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #grid-15{
-      
-        background-color: transparent;
-        background-image: url(question/integer\ m\ is.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #grid-16{
-  
-        background-color: transparent;
-        background-image: url(question/letter\ multiplication.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #grid-17{
+  #grid-13 {
+  }
 
-        background-color: transparent;
-        background-image: url(question/math\ expression.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #grid-18{
+  #grid-14 {
+  }
 
-        background-color: transparent;
-        background-image: url(question/substraction\ problem.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #grid-19{
-       
-        background-color: transparent;
-        background-image: url(question/substraction\ problem.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    @media screen and (max-width: 580px) {
-        #grid-11{
-            grid-column-start: 1;
-            grid-column-end: 4;
-        }
+  #grid-15 {
+  }
 
-        #grid-12{
-      
-        }
+  #grid-16 {
+  }
 
-        #grid-13{
+  #grid-17 {
+  }
 
-        }
+  #grid-18 {
+  }
 
-        #grid-14{
-
-        }
-
-        #grid-15{
-
-        }
-
-        #grid-16{
-
-        }
-
-        #grid-17{
-
-        }
-
-        #grid-18{
-
-        }
-
-        #grid-19{
-
-        }
-    }
+  #grid-19 {
+  }
+}
