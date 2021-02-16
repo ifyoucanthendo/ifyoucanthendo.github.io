@@ -4,7 +4,7 @@
   height: auto;
   width: 100vw;
   grid-template-columns: 30vw 38vw 30vw;
-  grid-template-rows: 30vh 38vh 30vh;
+  grid-template-rows: min-content 38vh 30vh;
   column-gap: 1vw;
   row-gap: 1vh;
 }
