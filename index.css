@@ -1,50 +1,43 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    background-color: black;
-    } 
-#first_block_div{
-    border: 2px solid gold;
-    background-color: transparent;
-    height: 45vh;
-    width: 100vw;
-  
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 1 px solid red;
+}
+#first_block_div {
+  border: 2px solid gold;
+  background-color: black;
+  height: 45vh;
+  width: 100vw;
 }
 
-#first_block_div_image{
-    height: 15em;
-    width: auto;
-    border: 2px solid gold;
-<<<<<<< HEAD
-    box-shadow: 10px 20px 15px 0px grey ;
-}
-=======
-    box-shadow: 10px 20px 15px 3px grey ;
-    position: absolute;
- top: 20px;
+#first_block_div_image {
+  height: 15em;
+  width: auto;
+  border: 2px solid gold;
+  box-shadow: 10px 20px 15px 3px grey;
+  position: absolute;
+  top: 20px;
 }
 #social_media_div {
-    padding: 20px;
-      display: flex;
-      flex-direction: rows;
-      justify-content: center; 
-     
-    }
-    
-    .social_media_icon {
-      height: auto;
-      width: 5vw;
-      border-radius: 45%;
-    
-      padding: 10px; 
-    
-    }
-#quotes{
+  padding: 20px;
+  display: flex;
+  flex-direction: rows;
+  justify-content: center;
+}
+
+.social_media_icon {
+  height: auto;
+  width: 5vw;
+  border-radius: 45%;
+
+  padding: 10px;
+}
+#quotes {
   color: green;
   background-image: url("border.gif");
   background-position: center center;
-background-size: contain;
-background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
   align-items: center;
   height: auto;
   width: 35vw;
@@ -53,11 +46,9 @@ background-repeat: no-repeat;
   left: 20px;
   border: 1px solid red;
 }
-#first_block_div_child{
-    display: flex;
+#first_block_div_child {
+  display: flex;
 
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
->>>>>>> grid_links

@@ -7,9 +7,10 @@
   grid-template-rows: min-content 38vh 30vh;
   column-gap: 1vw;
   row-gap: 1vh;
+  grid-auto-rows: 200px;
 }
 .grid_item {
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
 }
 
 #grid-11 {
@@ -22,7 +23,7 @@
   align-content: center;
 }
 #grid_11_paragrapgh {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 #grid-12 {
@@ -84,32 +85,64 @@
   background-position: center;
 }
 @media screen and (max-width: 580px) {
+.grid_container{
+  /* border: 2px solid red; */
+  display: grid;
+  height: auto;
+  width: 100vw;
+  grid-template-columns: 30vw 38vw 30vw;
+  grid-template-rows: min-content 25vh 10vh;
+
+  grid-auto-rows: 10vh;
+}
+  .grid_item{
+
+
+  }
   #grid-11 {
     grid-column-start: 1;
     grid-column-end: 4;
+    
   }
 
   #grid-12 {
+    background-color: transparent;
+    background-image: url(question/cryptic\ addition.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
   }
 
   #grid-13 {
+    /* grid-area: min-content; */
+    background-position: top;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
   }
 
   #grid-14 {
+    background-position: top;
+
   }
 
   #grid-15 {
+    background-position: top;
   }
 
   #grid-16 {
+    background-position: top;
   }
 
   #grid-17 {
+    background-position: top;
   }
 
   #grid-18 {
+    background-position: top;
   }
 
   #grid-19 {
+    background-position: top;
   }
 }
