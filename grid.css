@@ -34,6 +34,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  
 }
 #grid-13 {
   background-color: transparent;
@@ -62,7 +63,6 @@
 #grid-16 {
   background-color: transparent;
   background-image: url(question/day\ before\ yesterday.png);
-  background-size: ;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -99,8 +99,7 @@
     grid-auto-rows: 10vw;
     grid-auto-columns: 20w;
   }
-  .grid_item {
-  }
+
   #grid-11 {
     grid-column-start: 1;
     grid-column-end: 4;

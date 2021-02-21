@@ -1,0 +1,18 @@
+#for_malicious_computer {
+  background-image: url(question/mallicious\ computer.png);
+
+  height: 50vh;
+  width: 100vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: none;
+}
+button {
+  height: 5vh;
+  width: 9vw;
+  text-align: center;
+  border-radius: 25px;
+  outline: none;
+  background-color: green;
+  color: white;
+}

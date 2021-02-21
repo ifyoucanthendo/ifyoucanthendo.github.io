@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="answer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="animtion.css">
     <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="index.css">
@@ -26,7 +29,13 @@
                     alt=""></a>
         </div>
     </div>
+    <div id="for_malicious_computer">
+        <button id="newbutton">hide answer
+        </button>
+    </div>
     <div class="grid_container">
+
+
         <div class="grid_item" id="grid-11" class="animation"><a href="" id="grid_11_paragrapgh">
                 A malicious computer program informs a user that it has “kidnapped” an important file and that what
                 happens to the file will be based on the next statement to be typed by the user. If the user types a
@@ -43,19 +52,34 @@
             <P>INTEGER m IS THE SQUARE OF A CERTAIN TWO-DIGIT NUMBER , AND IT ENDS WITH 5. IS THE THIRD FROM LAST OF
                 THIS m NUMBER EVEN OR ODD ? </P>
         </div>
-<br>
+        <br>
 
     </div>
-   <div class="grid_container1"> 
-       <div class="grid_item" id="grid-16" class="animation"><p>WHAT DAYS FOLLOWS THE DAY BEFORE YESTERDAY IF TWO DAYS FROM NOW WILL BE SUNDAY ?</p></div>
-   <div class="grid_item" id="grid-17" class="animation">17</div>
-   <div class="grid_item" id="grid-18" class="animation">18</div>
-   <div class="grid_item" id="grid-19" class="animation">19</div>
-</div>
-
-
-
+    <div class="grid_container1">
+        <div class="grid_item" id="grid-16" class="animation">
+            <p>WHAT DAYS FOLLOWS THE DAY BEFORE YESTERDAY IF TWO DAYS FROM NOW WILL BE SUNDAY ?</p>
+        </div>
+        <div class="grid_item" id="grid-17" class="animation">17</div>
+        <div class="grid_item" id="grid-18" class="animation">18</div>
+        <div class="grid_item" id="grid-19" class="animation">19</div>
     </div>
+    <br> <br><br>
+
+
+
+
 </body>
+<script>
+    $(document).ready(function () {
+        $("#grid-12").click(function () {
+            $(" #for_malicious_computer ").show();
+            $(" .grid_container ").hide();
+        });
+        $("#newbutton").click(function () {
+            $("#for_malicious_computer").hide();
+            $(" .grid_container ").show();
+        });
+    });
+</script>
 
 </html>
