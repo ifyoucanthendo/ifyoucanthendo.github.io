@@ -27,7 +27,7 @@
 
 .social_media_icon {
   height: auto;
-  width: 5vw;
+  width: 4vw;
   border-radius: 45%;
 
   padding: 10px;
@@ -51,4 +51,12 @@
 
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 580px) {
+ .social_media_icon {
+  height: auto;
+  width: 10vw;
+  border-radius: 45%;
+ padding: 10px;
+ }
 }

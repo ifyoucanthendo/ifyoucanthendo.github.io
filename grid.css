@@ -15,15 +15,17 @@
 
 #grid-11 {
   border: 1px solid red;
-
+  background-color: black;
   grid-column-start: 1;
   grid-column-end: 3;
-  box-shadow: 10px 20px 15px 3px green;
+  border-radius: 20px;
+  box-shadow: 10px 20px 15px 3px;
   justify-content: center;
   align-content: center;
 }
 #grid_11_paragrapgh {
-  color: black;
+  color: aliceblue;
+
   text-decoration: none;
 }
 #grid-12 {
@@ -44,22 +46,23 @@
 }
 #grid-14 {
   background-color: transparent;
-  background-image: url(question/day\ before\ yesterday.png);
+
+  background-image: url(question/letter\ multiplication.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 #grid-15 {
   background-color: transparent;
-  background-image: url(question/integer\ m\ is.png);
-  background-size: contain;
+ font-style: bold;
+ font-size: 1em;
   background-repeat: no-repeat;
   background-position: center;
 }
 #grid-16 {
   background-color: transparent;
-  background-image: url(question/letter\ multiplication.png);
-  background-size: contain;
+  background-image: url(question/day\ before\ yesterday.png);
+  background-size: ;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -85,24 +88,22 @@
   background-position: center;
 }
 @media screen and (max-width: 580px) {
-.grid_container{
-  /* border: 2px solid red; */
-  display: grid;
-  height: auto;
-  width: 100vw;
-  grid-template-columns: 30vw 38vw 30vw;
-  grid-template-rows: min-content 25vh 10vh;
+  .grid_container {
+    /* border: 2px solid red; */
+    display: grid;
+    height: auto;
+    width: 100vw;
+    grid-template-columns: 30vw 15vw 53vw;
+    grid-template-rows: min-content 25vh 20vh;
 
-  grid-auto-rows: 10vh;
-}
-  .grid_item{
-
-
+    grid-auto-rows: 10vw;
+    grid-auto-columns: 20w;
+  }
+  .grid_item {
   }
   #grid-11 {
     grid-column-start: 1;
     grid-column-end: 4;
-    
   }
 
   #grid-12 {
@@ -118,31 +119,16 @@
     background-position: top;
     grid-column-start: 2;
     grid-column-end: 4;
-
   }
 
   #grid-14 {
     background-position: top;
-
+    grid-column-start: 1;
+    grid-column-end: 3;
   }
 
   #grid-15 {
     background-position: top;
-  }
-
-  #grid-16 {
-    background-position: top;
-  }
-
-  #grid-17 {
-    background-position: top;
-  }
-
-  #grid-18 {
-    background-position: top;
-  }
-
-  #grid-19 {
-    background-position: top;
+    font-size: 0.5em;
   }
 }
