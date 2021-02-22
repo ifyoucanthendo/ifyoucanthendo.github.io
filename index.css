@@ -1,7 +1,7 @@
 * {
   padding: 0px;
   margin: 0px;
-  border: 1 px solid red;
+  border: 1px solid red;
 }
 #first_block_div {
   border: 2px solid gold;
@@ -53,10 +53,10 @@
   align-items: center;
 }
 @media screen and (max-width: 580px) {
- .social_media_icon {
-  height: auto;
-  width: 10vw;
-  border-radius: 45%;
- padding: 10px;
- }
+  .social_media_icon {
+    height: auto;
+    width: 10vw;
+    border-radius: 45%;
+    padding: 10px;
+  }
 }

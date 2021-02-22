@@ -1,12 +1,15 @@
 #for_malicious_computer {
   background-image: url(question/mallicious\ computer.png);
 
-  height: 50vh;
+  height: 45vh;
   width: 100vw;
   background-size: contain;
   background-repeat: no-repeat;
+}
+#grid_12_answer {
   display: none;
 }
+
 button {
   height: 5vh;
   width: 9vw;
@@ -15,4 +18,26 @@ button {
   outline: none;
   background-color: green;
   color: white;
+}
+@media screen and (max-width: 580px) {
+  button {
+    height: 5vh;
+    width: 15vw;
+    text-align: center;
+    border-radius: 25px;
+    outline: none;
+    background-color: green;
+    color: white;
+  }
+  #newbutton {
+    
+  }
+  #main_div {
+    background-position: bottom;
+    background-color: blue;
+  }
+  #for_malicious_computer {
+    position: absolute;
+    top: 600px;
+  }
 }

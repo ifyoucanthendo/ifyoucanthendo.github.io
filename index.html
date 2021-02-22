@@ -29,22 +29,18 @@
                     alt=""></a>
         </div>
     </div>
-    <div id="for_malicious_computer">
-        <button id="newbutton">hide answer
-        </button>
+    <div id="grid_12_answer">
+        <div id="for_malicious_computer"></div>
+        <button id="newbutton">hide answer </button>
     </div>
-    <div class="grid_container">
-
-
-        <div class="grid_item" id="grid-11" class="animation"><a href="" id="grid_11_paragrapgh">
+    <div class="grid_container hide_for_answer">
+ <div class="grid_item" id="grid-11" class="animation"><a href="" id="grid_11_paragrapgh">
                 A malicious computer program informs a user that it has “kidnapped” an important file and that what
                 happens to the file will be based on the next statement to be typed by the user. If the user types a
                 false statement it will delete the file, and if the user types a true statement it will change the
                 file’s name so it can never be found. The user types a statement that makes the computer unable to
                 perform or shut down. What could the user have typed?
-            </a>
-
-        </div>
+            </a> </div>
         <div class="grid_item" id="grid-12" class="animation">12</div>
         <div class="grid_item" id="grid-13" class="animation">13</div>
         <div class="grid_item" id="grid-14" class="animation">14</div>
@@ -52,18 +48,18 @@
             <P>INTEGER m IS THE SQUARE OF A CERTAIN TWO-DIGIT NUMBER , AND IT ENDS WITH 5. IS THE THIRD FROM LAST OF
                 THIS m NUMBER EVEN OR ODD ? </P>
         </div>
-        <br>
-
     </div>
-    <div class="grid_container1">
+ </div>
+
+    <div class="grid_container1 hide_for_answer">
         <div class="grid_item" id="grid-16" class="animation">
-            <p>WHAT DAYS FOLLOWS THE DAY BEFORE YESTERDAY IF TWO DAYS FROM NOW WILL BE SUNDAY ?</p>
-        </div>
+            <p>WHAT DAYS FOLLOWS THE DAY BEFORE YESTERDAY IF TWO DAYS FROM NOW WILL BE SUNDAY ?</p></div>
+      
         <div class="grid_item" id="grid-17" class="animation">17</div>
         <div class="grid_item" id="grid-18" class="animation">18</div>
         <div class="grid_item" id="grid-19" class="animation">19</div>
     </div>
-    <br> <br><br>
+    
 
 
 
@@ -72,12 +68,12 @@
 <script>
     $(document).ready(function () {
         $("#grid-12").click(function () {
-            $(" #for_malicious_computer ").show();
-            $(" .grid_container ").hide();
+            $(" #grid_12_answer ").show();
+            $(" .hide_for_answer").hide();
         });
         $("#newbutton").click(function () {
-            $("#for_malicious_computer").hide();
-            $(" .grid_container ").show();
+            $("#grid_12_answer").hide();
+            $(" .hide_for_answer ").show();
         });
     });
 </script>
